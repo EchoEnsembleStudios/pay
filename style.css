@@ -4,3 +4,13 @@ body{font-family:Arial,sans-serif;background:#0b1f3a;color:#fff;display:flex;jus
 .qr{background:#fff;color:#333;padding:15px;border-radius:12px}
 .qr img{max-width:260px;width:100%}
 button{margin:6px;padding:10px 16px;border-radius:8px;border:none;cursor:pointer}
+.logo-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.logo{
+    width:120px;
+    margin-bottom:15px;
+}
