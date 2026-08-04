@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Echo Ensemble Studios | Secure UPI Payment</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="background-shape shape1"></div>
+<div class="background-shape shape2"></div>
+<main class="container">
+<header class="hero">
+<img src="assets/logo.png" alt="Echo Ensemble Studios" class="logo">
+<p class="subtitle">Quick &amp; Secure UPI Payment</p>
+<a class="pay-button" href="upi://pay?pa=echoensemblestudios@idfcbank&pn=Echo%20Ensemble%20Studios&cu=INR">💳 Pay with any UPI App</a>
+</header>
+<section class="divider"><span>OR</span></section>
+<section class="card qr-card">
+<h2>Scan QR Code</h2>
+<img src="assets/qr.png" class="qr-image" alt="QR Code">
+<p>Scan using Google Pay, PhonePe, Paytm, BHIM or any UPI app.</p>
+</section>
+<section class="card">
+<div class="copy-card" onclick="copyText('echoensemblestudios@idfcbank')"><div><div class="label">UPI ID</div><div class="value">echoensemblestudios@idfcbank</div></div><div class="copy-icon">📋</div></div>
+<div class="copy-card" onclick="copyText('9986253998')"><div><div class="label">Mobile Number</div><div class="value">9986253998</div></div><div class="copy-icon">📋</div></div>
+</section>
+<section class="contact">
+<h3>Need Help?</h3>
+<div class="contact-grid">
+<a class="contact-btn whatsapp" href="https://wa.me/919986253998">💬 WhatsApp</a>
+<a class="contact-btn call" href="tel:+919986253998">📞 Call Studio</a>
+</div>
+</section>
+<footer>
+<p class="footer-text">Every contribution helps nurture a child's musical journey.</p>
+<p class="footer-brand">❤️ Echo Ensemble Studios</p>
+</footer>
+</main>
+<div id="toast">Copied Successfully</div>
+<script src="script.js"></script>
+</body>
+</html>
