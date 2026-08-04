@@ -1,0 +1,1 @@
+function copyText(t){navigator.clipboard.writeText(t);alert('Copied: '+t);}
